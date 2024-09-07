@@ -1,0 +1,131 @@
+.button {
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.button button {
+    border-radius: 10px;
+}
+.figure img {
+    object-fit: contain;
+    width: 50%;
+    height: 500px;
+
+} 
+
+/* Thumbnail-card start*/
+.Thumbnail-card {
+    position: relative;
+}
+
+.Thumbnail-card-body {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+
+.Thumbnail-card-body p {
+    color: aliceblue;
+
+}
+
+
+.Thumbnail-card img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+/* Thumbnail-card end */
+
+/* grid-card start */
+.grid-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 80px;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.grid-card>div {
+     padding: 10px;
+    border-radius: 10px; 
+    text-align: center;
+    color: rgb(19, 18, 18);
+    
+}
+
+.grid-card>div:hover {
+   border: 1px solid black;
+    box-shadow: 2px 4px #252525;
+    cursor: pointer;
+}
+
+.grid-card> div img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+/* grid-card end */
+
+.card-body p {
+    color: black;
+}
+
+.text {
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+} 
+
+ .container-top {
+    margin: 5%;
+    width: 90%;
+    margin-top: 40px;
+    font-family: "Sofia", sans-serif;
+
+}
+/* Jumbotron start */
+.Jumbotron {
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    background-color: rgb(51, 95, 124);
+}
+/* Jumbotron end */
+
+/* rtl start */
+ .Rtl-part{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.Rtl-item img{
+    width: 180px;
+
+}
+/* rtl end */
+
+.footer-area{
+    margin-top: 30px;
+   padding: 100px;
+
+}
+.social-icon a{
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+} 
+.footer{
+   height: 40px;
+   text-align: center;
+   padding-left: 80px;
+   padding-right: 80px;
+   align-items: center;
+}
